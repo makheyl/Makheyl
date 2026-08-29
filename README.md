@@ -68,7 +68,7 @@
 <table>
   <tr>
     <td align="right"><b>Frontend &amp; Backend</b></td>
-    <td>
+    <td align="center">
       <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" width="86" alt="React" />
       <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" width="126" alt="JavaScript" />
       <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" width="88" alt="HTML5" />
@@ -81,7 +81,7 @@
   </tr>
   <tr>
     <td align="right"><b>Languages &amp; Cloud</b></td>
-    <td>
+    <td align="center">
       <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" width="98" alt="Python" />
       <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=dotnet&logoColor=white" width="62" alt="C Sharp" />
       <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" width="94" alt="Vercel" />
@@ -90,7 +90,7 @@
   </tr>
   <tr>
     <td align="right"><b>Low-code &amp; Creative</b></td>
-    <td>
+    <td align="center">
       <img src="https://img.shields.io/badge/Power%20Apps-742774?style=for-the-badge&logo=powerapps&logoColor=white" width="110" alt="Microsoft Power Apps" />
       <img src="https://img.shields.io/badge/Microsoft%20Lists-0078D4?style=for-the-badge&logo=microsoft&logoColor=white" width="146" alt="Microsoft Lists" />
       <img src="https://img.shields.io/badge/Blender-F5792A?style=for-the-badge&logo=blender&logoColor=white" width="105" alt="Blender" />
@@ -99,7 +99,7 @@
   </tr>
   <tr>
     <td align="right"><b>Tools &amp; AI</b></td>
-    <td>
+    <td align="center">
       <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" width="82" alt="Visual Studio Code" />
       <img src="https://img.shields.io/badge/ChatGPT-412991?style=for-the-badge&logo=openai&logoColor=white" width="85" alt="ChatGPT" />
       <img src="https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=claude&logoColor=white" width="96" alt="Claude" />
