@@ -27,8 +27,8 @@
     attribute on a badge is accepted by the sanitiser and then ignored.
     Size is controlled by width only.
     Badges are 28 tall natively and every one has a different natural
-    width, so each img carries its own width, worked out from that
-    badge's aspect ratio to land them all on the same 36px height.
+    width, so each img carries its own width. They currently sit at
+    their native size, which renders 28 tall.
     To resize, scale every width by the same factor. Changing them to
     one shared number squashes the wider badges.
     Past roughly 44px tall the table starts wrapping on narrow screens.
@@ -54,12 +54,6 @@
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:7C3AED,50:8B5CF6,100:06B6D4&height=3&section=header" width="100%" alt="Section divider" />
 
-## About
-
-I am a 4th-year BSIT student on the game development track. My capstone work is a set of SDG-themed games, so most of what I build sits between game design and real problems like education access, disaster response, and the environment. Outside of that I build web apps and internal business tools on Microsoft Power Platform, which means I move between 3D scenes, React components, and low-code forms in the same week. AI tooling is part of how I actually work, not a demo sitting in a side folder.
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:7C3AED,50:8B5CF6,100:06B6D4&height=3&section=header" width="100%" alt="Section divider" />
-
 ## Tech Stack
 
 <div align="center">
@@ -68,56 +62,56 @@ I am a 4th-year BSIT student on the game development track. My capstone work is 
   <tr>
     <td align="right"><h3>Frontend</h3></td>
     <td>
-      <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" width="111" alt="React" />
-      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" width="163" alt="JavaScript" />
-      <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" width="113" alt="HTML5" />
-      <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css&logoColor=white" width="99" alt="CSS3" />
+      <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" width="86" alt="React" />
+      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" width="126" alt="JavaScript" />
+      <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" width="88" alt="HTML5" />
+      <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css&logoColor=white" width="77" alt="CSS3" />
     </td>
   </tr>
   <tr>
     <td align="right"><h3>Backend &amp; Data</h3></td>
     <td>
-      <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" width="130" alt="Node.js" />
-      <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" width="142" alt="MongoDB" />
-      <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=black" width="145" alt="Supabase" />
-      <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" width="91" alt="PHP" />
+      <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" width="101" alt="Node.js" />
+      <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" width="111" alt="MongoDB" />
+      <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=black" width="113" alt="Supabase" />
+      <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" width="71" alt="PHP" />
     </td>
   </tr>
   <tr>
     <td align="right"><h3>Languages</h3></td>
     <td>
-      <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" width="125" alt="Python" />
-      <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=dotnet&logoColor=white" width="79" alt="C Sharp" />
+      <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" width="98" alt="Python" />
+      <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=dotnet&logoColor=white" width="62" alt="C Sharp" />
     </td>
   </tr>
   <tr>
     <td align="right"><h3>Cloud &amp; Deploy</h3></td>
     <td>
-      <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" width="120" alt="Vercel" />
-      <img src="https://img.shields.io/badge/Google%20Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" width="189" alt="Google Cloud" />
+      <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" width="94" alt="Vercel" />
+      <img src="https://img.shields.io/badge/Google%20Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" width="147" alt="Google Cloud" />
     </td>
   </tr>
   <tr>
     <td align="right"><h3>Low-code</h3></td>
     <td>
-      <img src="https://img.shields.io/badge/Power%20Apps-742774?style=for-the-badge&logo=powerapps&logoColor=white" width="142" alt="Microsoft Power Apps" />
-      <img src="https://img.shields.io/badge/Microsoft%20Lists-0078D4?style=for-the-badge&logo=microsoft&logoColor=white" width="187" alt="Microsoft Lists" />
+      <img src="https://img.shields.io/badge/Power%20Apps-742774?style=for-the-badge&logo=powerapps&logoColor=white" width="110" alt="Microsoft Power Apps" />
+      <img src="https://img.shields.io/badge/Microsoft%20Lists-0078D4?style=for-the-badge&logo=microsoft&logoColor=white" width="146" alt="Microsoft Lists" />
     </td>
   </tr>
   <tr>
     <td align="right"><h3>Creative</h3></td>
     <td>
-      <img src="https://img.shields.io/badge/Blender-F5792A?style=for-the-badge&logo=blender&logoColor=white" width="135" alt="Blender" />
-      <img src="https://img.shields.io/badge/Photoshop-31A8FF?style=for-the-badge&logo=adobephotoshop&logoColor=black" width="135" alt="Adobe Photoshop" />
+      <img src="https://img.shields.io/badge/Blender-F5792A?style=for-the-badge&logo=blender&logoColor=white" width="105" alt="Blender" />
+      <img src="https://img.shields.io/badge/Photoshop-31A8FF?style=for-the-badge&logo=adobephotoshop&logoColor=black" width="105" alt="Adobe Photoshop" />
     </td>
   </tr>
   <tr>
     <td align="right"><h3>Tools &amp; AI</h3></td>
     <td>
-      <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" width="105" alt="Visual Studio Code" />
-      <img src="https://img.shields.io/badge/ChatGPT-412991?style=for-the-badge&logo=openai&logoColor=white" width="109" alt="ChatGPT" />
-      <img src="https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=claude&logoColor=white" width="123" alt="Claude" />
-      <img src="https://img.shields.io/badge/Anthropic-D97757?style=for-the-badge&logo=anthropic&logoColor=white" width="157" alt="Anthropic" />
+      <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" width="82" alt="Visual Studio Code" />
+      <img src="https://img.shields.io/badge/ChatGPT-412991?style=for-the-badge&logo=openai&logoColor=white" width="85" alt="ChatGPT" />
+      <img src="https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=claude&logoColor=white" width="96" alt="Claude" />
+      <img src="https://img.shields.io/badge/Anthropic-D97757?style=for-the-badge&logo=anthropic&logoColor=white" width="122" alt="Anthropic" />
     </td>
   </tr>
 </table>
@@ -144,6 +138,12 @@ I am a 4th-year BSIT student on the game development track. My capstone work is 
 **Tools and AI.** VS Code for everything. Claude and ChatGPT sit in the loop for scaffolding, debugging, and reading code I did not write, which saves more time than it sounds like.
 
 </details>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:7C3AED,50:8B5CF6,100:06B6D4&height=3&section=header" width="100%" alt="Section divider" />
+
+## About
+
+I am a 4th-year BSIT student on the game development track. My capstone work is a set of SDG-themed games, so most of what I build sits between game design and real problems like education access, disaster response, and the environment. Outside of that I build web apps and internal business tools on Microsoft Power Platform, which means I move between 3D scenes, React components, and low-code forms in the same week. AI tooling is part of how I actually work, not a demo sitting in a side folder.
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:7C3AED,50:8B5CF6,100:06B6D4&height=3&section=header" width="100%" alt="Section divider" />
 
