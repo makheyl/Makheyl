@@ -3,13 +3,16 @@
   MAKHEYL  /  GITHUB PROFILE README
   ============================================================
 
-  PALETTE  (edit these hex values to re-skin the whole file)
-    Background     #0D1117   dark base, matches GitHub dark
-    Surface        #161B22   card surface
-    Border         #1F2937   card + stat card borders
-    Accent 1       #7C3AED   violet, primary
-    Accent 2       #06B6D4   cyan, secondary
-    Text           #E6EDF3   body text on dark
+  PALETTE
+    In use. Edit these to re-skin the banner, dividers and footer:
+      Accent 1     #7C3AED   violet, primary
+      Accent mid   #8B5CF6   gradient midpoint
+      Accent 2     #06B6D4   cyan, secondary
+      Text         #E6EDF3   banner text
+    Reference only. Kept for a future stats card or a matching site:
+      Background   #0D1117   dark base, matches GitHub dark
+      Surface      #161B22   card surface
+      Border       #1F2937   card borders
 
   GRADIENT used in the banner, dividers and footer:
     0:7C3AED , 50:8B5CF6 , 100:06B6D4
@@ -18,12 +21,6 @@
     Banner + dividers + footer .... capsule-render.vercel.app
     Typing tagline ................ readme-typing-svg.demolab.com
     Tech badges ................... img.shields.io  (style=for-the-badge)
-    Stats + top languages ......... github-readme-stats.vercel.app
-    Streak card ................... streak-stats.demolab.com
-
-  USERNAME
-    Wired to the handle "makheyl" in the GitHub Stats section.
-    If the handle ever changes, find and replace makheyl across this file.
 
   BADGES WITH NO ICON  (not a typo, the icons do not exist)
     shields.io pulls icons from simple-icons, which has dropped the
@@ -33,11 +30,6 @@
     C# uses logo=dotnet as a stand-in, the csharp slug is also gone.
     skillicons.dev still has vscode, ps and cs if you ever want to
     swap those rows, but it has no Claude, Anthropic or Power Apps.
-
-  OPTIONAL EXTRA CARD
-    Paste this into the stats section if you want trophies too.
-    Trophy uses its own theme names, algolia is the closest match.
-    <img src="https://github-profile-trophy.vercel.app/?username=makheyl&theme=algolia&no-frame=true&no-bg=true&column=7&margin-w=8" width="100%" alt="GitHub trophies" />
   ============================================================
 -->
 
@@ -146,27 +138,6 @@ I am a 4th-year BSIT student on the game development track. My capstone work is 
 - Internal tools on Power Apps and Microsoft Lists for real business workflows
 - Small React and Node projects to keep the web side sharp
 - Blender assets that keep getting reworked instead of finished
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:7C3AED,50:8B5CF6,100:06B6D4&height=3&section=header" width="100%" alt="Section divider" />
-
-## GitHub Stats
-
-<div align="center">
-
-<table>
-  <tr>
-    <td width="50%" align="center">
-      <img src="https://github-readme-stats.vercel.app/api?username=makheyl&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight&bg_color=0D1117&title_color=7C3AED&icon_color=06B6D4&text_color=E6EDF3&border_color=1F2937" width="100%" alt="GitHub stats: total stars, commits, pull requests, issues and contributions" />
-    </td>
-    <td width="50%" align="center">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=makheyl&layout=compact&langs_count=8&theme=tokyonight&bg_color=0D1117&title_color=7C3AED&icon_color=06B6D4&text_color=E6EDF3&border_color=1F2937" width="100%" alt="Most used programming languages across my repositories" />
-    </td>
-  </tr>
-</table>
-
-<img src="https://streak-stats.demolab.com?user=makheyl&theme=tokyonight&background=0D1117&border=1F2937&stroke=1F2937&ring=7C3AED&fire=06B6D4&currStreakLabel=7C3AED&sideLabels=E6EDF3&dates=8B949E" width="480" alt="Current and longest GitHub contribution streak" />
-
-</div>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:7C3AED,50:8B5CF6,100:06B6D4&height=3&section=header" width="100%" alt="Section divider" />
 
