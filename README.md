@@ -22,12 +22,16 @@
     Typing tagline ................ readme-typing-svg.demolab.com
     Tech badges ................... img.shields.io  (style=for-the-badge)
 
-  BADGE SIZE
-    Set by the height attribute on each badge img, currently 36.
-    Their natural height is 28. They are SVG, so they stay sharp at
-    any size. Change all 20 at once with a find and replace on
-    height="36". Much past 44 and the table starts to wrap awkwardly
-    on narrow screens.
+  BADGE SIZE  (read this before resizing)
+    GitHub forces height:auto on images in markdown, so a height
+    attribute on a badge is accepted by the sanitiser and then ignored.
+    Size is controlled by width only.
+    Badges are 28 tall natively and every one has a different natural
+    width, so each img carries its own width, worked out from that
+    badge's aspect ratio to land them all on the same 36px height.
+    To resize, scale every width by the same factor. Changing them to
+    one shared number squashes the wider badges.
+    Past roughly 44px tall the table starts wrapping on narrow screens.
 
   BADGES WITH NO ICON  (not a typo, the icons do not exist)
     shields.io pulls icons from simple-icons, which has dropped the
@@ -64,56 +68,56 @@ I am a 4th-year BSIT student on the game development track. My capstone work is 
   <tr>
     <td align="right"><h3>Frontend</h3></td>
     <td>
-      <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" height="36" alt="React" />
-      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" height="36" alt="JavaScript" />
-      <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" height="36" alt="HTML5" />
-      <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css&logoColor=white" height="36" alt="CSS3" />
+      <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" width="111" alt="React" />
+      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" width="163" alt="JavaScript" />
+      <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" width="113" alt="HTML5" />
+      <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css&logoColor=white" width="99" alt="CSS3" />
     </td>
   </tr>
   <tr>
     <td align="right"><h3>Backend &amp; Data</h3></td>
     <td>
-      <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" height="36" alt="Node.js" />
-      <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" height="36" alt="MongoDB" />
-      <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=black" height="36" alt="Supabase" />
-      <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" height="36" alt="PHP" />
+      <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" width="130" alt="Node.js" />
+      <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" width="142" alt="MongoDB" />
+      <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=black" width="145" alt="Supabase" />
+      <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" width="91" alt="PHP" />
     </td>
   </tr>
   <tr>
     <td align="right"><h3>Languages</h3></td>
     <td>
-      <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" height="36" alt="Python" />
-      <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=dotnet&logoColor=white" height="36" alt="C Sharp" />
+      <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" width="125" alt="Python" />
+      <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=dotnet&logoColor=white" width="79" alt="C Sharp" />
     </td>
   </tr>
   <tr>
     <td align="right"><h3>Cloud &amp; Deploy</h3></td>
     <td>
-      <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" height="36" alt="Vercel" />
-      <img src="https://img.shields.io/badge/Google%20Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" height="36" alt="Google Cloud" />
+      <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" width="120" alt="Vercel" />
+      <img src="https://img.shields.io/badge/Google%20Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" width="189" alt="Google Cloud" />
     </td>
   </tr>
   <tr>
     <td align="right"><h3>Low-code</h3></td>
     <td>
-      <img src="https://img.shields.io/badge/Power%20Apps-742774?style=for-the-badge&logo=powerapps&logoColor=white" height="36" alt="Microsoft Power Apps" />
-      <img src="https://img.shields.io/badge/Microsoft%20Lists-0078D4?style=for-the-badge&logo=microsoft&logoColor=white" height="36" alt="Microsoft Lists" />
+      <img src="https://img.shields.io/badge/Power%20Apps-742774?style=for-the-badge&logo=powerapps&logoColor=white" width="142" alt="Microsoft Power Apps" />
+      <img src="https://img.shields.io/badge/Microsoft%20Lists-0078D4?style=for-the-badge&logo=microsoft&logoColor=white" width="187" alt="Microsoft Lists" />
     </td>
   </tr>
   <tr>
     <td align="right"><h3>Creative</h3></td>
     <td>
-      <img src="https://img.shields.io/badge/Blender-F5792A?style=for-the-badge&logo=blender&logoColor=white" height="36" alt="Blender" />
-      <img src="https://img.shields.io/badge/Photoshop-31A8FF?style=for-the-badge&logo=adobephotoshop&logoColor=black" height="36" alt="Adobe Photoshop" />
+      <img src="https://img.shields.io/badge/Blender-F5792A?style=for-the-badge&logo=blender&logoColor=white" width="135" alt="Blender" />
+      <img src="https://img.shields.io/badge/Photoshop-31A8FF?style=for-the-badge&logo=adobephotoshop&logoColor=black" width="135" alt="Adobe Photoshop" />
     </td>
   </tr>
   <tr>
     <td align="right"><h3>Tools &amp; AI</h3></td>
     <td>
-      <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" height="36" alt="Visual Studio Code" />
-      <img src="https://img.shields.io/badge/ChatGPT-412991?style=for-the-badge&logo=openai&logoColor=white" height="36" alt="ChatGPT" />
-      <img src="https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=claude&logoColor=white" height="36" alt="Claude" />
-      <img src="https://img.shields.io/badge/Anthropic-D97757?style=for-the-badge&logo=anthropic&logoColor=white" height="36" alt="Anthropic" />
+      <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" width="105" alt="Visual Studio Code" />
+      <img src="https://img.shields.io/badge/ChatGPT-412991?style=for-the-badge&logo=openai&logoColor=white" width="109" alt="ChatGPT" />
+      <img src="https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=claude&logoColor=white" width="123" alt="Claude" />
+      <img src="https://img.shields.io/badge/Anthropic-D97757?style=for-the-badge&logo=anthropic&logoColor=white" width="157" alt="Anthropic" />
     </td>
   </tr>
 </table>
