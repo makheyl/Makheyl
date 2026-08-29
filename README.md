@@ -25,6 +25,15 @@
     Wired to the handle "makheyl" in the GitHub Stats section.
     If the handle ever changes, find and replace makheyl across this file.
 
+  BADGES WITH NO ICON  (not a typo, the icons do not exist)
+    shields.io pulls icons from simple-icons, which has dropped the
+    Microsoft, Adobe, VS Code and OpenAI marks over trademark policy.
+    These 5 render as text on brand colour, which still looks fine:
+      Power Apps, Microsoft Lists, Photoshop, VS Code, ChatGPT
+    C# uses logo=dotnet as a stand-in, the csharp slug is also gone.
+    skillicons.dev still has vscode, ps and cs if you ever want to
+    swap those rows, but it has no Claude, Anthropic or Power Apps.
+
   OPTIONAL EXTRA CARD
     Paste this into the stats section if you want trophies too.
     Trophy uses its own theme names, algolia is the closest match.
@@ -57,7 +66,7 @@ I am a 4th-year BSIT student on the game development track. My capstone work is 
       <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" height="28" alt="React" />
       <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" height="28" alt="JavaScript" />
       <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" height="28" alt="HTML5" />
-      <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" height="28" alt="CSS3" />
+      <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css&logoColor=white" height="28" alt="CSS3" />
     </td>
   </tr>
   <tr>
@@ -73,7 +82,7 @@ I am a 4th-year BSIT student on the game development track. My capstone work is 
     <td><b>Languages</b></td>
     <td>
       <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" height="28" alt="Python" />
-      <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white" height="28" alt="C Sharp" />
+      <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=dotnet&logoColor=white" height="28" alt="C Sharp" />
     </td>
   </tr>
   <tr>
