@@ -33,6 +33,13 @@
     one shared number squashes the wider badges.
     Past roughly 44px tall the table starts wrapping on narrow screens.
 
+  TABLE HEIGHT
+    Category labels are <b>, deliberately. A heading tag there costs
+    about 40px a row in GitHub's own h1-h6 margins, which is what makes
+    the table long. Cell padding itself is GitHub's and cannot be
+    changed, since inline style and CSS are both stripped. The only
+    real levers are fewer rows and no headings in the label cells.
+
   BADGES WITH NO ICON  (not a typo, the icons do not exist)
     shields.io pulls icons from simple-icons, which has dropped the
     Microsoft, Adobe, VS Code and OpenAI marks over trademark policy.
@@ -60,17 +67,12 @@
 
 <table>
   <tr>
-    <td align="right"><h3>Frontend</h3></td>
+    <td align="right"><b>Frontend &amp; Backend</b></td>
     <td>
       <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" width="86" alt="React" />
       <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" width="126" alt="JavaScript" />
       <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" width="88" alt="HTML5" />
       <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css&logoColor=white" width="77" alt="CSS3" />
-    </td>
-  </tr>
-  <tr>
-    <td align="right"><h3>Backend &amp; Data</h3></td>
-    <td>
       <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" width="101" alt="Node.js" />
       <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" width="111" alt="MongoDB" />
       <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=black" width="113" alt="Supabase" />
@@ -78,35 +80,25 @@
     </td>
   </tr>
   <tr>
-    <td align="right"><h3>Languages</h3></td>
+    <td align="right"><b>Languages &amp; Cloud</b></td>
     <td>
       <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" width="98" alt="Python" />
       <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=dotnet&logoColor=white" width="62" alt="C Sharp" />
-    </td>
-  </tr>
-  <tr>
-    <td align="right"><h3>Cloud &amp; Deploy</h3></td>
-    <td>
       <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" width="94" alt="Vercel" />
       <img src="https://img.shields.io/badge/Google%20Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" width="147" alt="Google Cloud" />
     </td>
   </tr>
   <tr>
-    <td align="right"><h3>Low-code</h3></td>
+    <td align="right"><b>Low-code &amp; Creative</b></td>
     <td>
       <img src="https://img.shields.io/badge/Power%20Apps-742774?style=for-the-badge&logo=powerapps&logoColor=white" width="110" alt="Microsoft Power Apps" />
       <img src="https://img.shields.io/badge/Microsoft%20Lists-0078D4?style=for-the-badge&logo=microsoft&logoColor=white" width="146" alt="Microsoft Lists" />
-    </td>
-  </tr>
-  <tr>
-    <td align="right"><h3>Creative</h3></td>
-    <td>
       <img src="https://img.shields.io/badge/Blender-F5792A?style=for-the-badge&logo=blender&logoColor=white" width="105" alt="Blender" />
       <img src="https://img.shields.io/badge/Photoshop-31A8FF?style=for-the-badge&logo=adobephotoshop&logoColor=black" width="105" alt="Adobe Photoshop" />
     </td>
   </tr>
   <tr>
-    <td align="right"><h3>Tools &amp; AI</h3></td>
+    <td align="right"><b>Tools &amp; AI</b></td>
     <td>
       <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" width="82" alt="Visual Studio Code" />
       <img src="https://img.shields.io/badge/ChatGPT-412991?style=for-the-badge&logo=openai&logoColor=white" width="85" alt="ChatGPT" />
@@ -123,17 +115,11 @@
 
 <br />
 
-**Frontend.** React for anything with more than two screens, plain HTML and CSS when a project does not need a build step. Most of my JavaScript work is glue between a UI and whatever is storing the data.
+**Frontend and backend.** React for anything with more than two screens, plain HTML and CSS when a project does not need a build step. Most of my JavaScript work is glue between a UI and whatever is storing the data. Node for APIs, MongoDB when the shape of the data is still moving, Supabase when I want auth and a Postgres table without standing up a server. PHP shows up in coursework and older school systems.
 
-**Backend and data.** Node for APIs, MongoDB when the shape of the data is still moving, Supabase when I want auth and a Postgres table without standing up a server. PHP shows up in coursework and older school systems.
+**Languages and cloud.** C# is my game code. Python is for scripts, data cleanup, and anything I only need to run once. Vercel for front ends because the deploy is one push. Google Cloud for the parts that need to keep running.
 
-**Languages.** C# is my game code. Python is for scripts, data cleanup, and anything I only need to run once.
-
-**Cloud and deploy.** Vercel for front ends because the deploy is one push. Google Cloud for the parts that need to keep running.
-
-**Low-code.** Power Apps and Microsoft Lists for internal business tools, the kind where the users are staff, the data lives in a list, and the whole point is that nobody has to open a terminal.
-
-**Creative.** Blender for models, environments, and the occasional render that has nothing to do with a game. Photoshop for textures, UI mockups, and fixing things that should have been fixed in Blender.
+**Low-code and creative.** Power Apps and Microsoft Lists for internal business tools, the kind where the users are staff, the data lives in a list, and the whole point is that nobody has to open a terminal. Blender for models, environments, and the occasional render that has nothing to do with a game. Photoshop for textures, UI mockups, and fixing things that should have been fixed in Blender.
 
 **Tools and AI.** VS Code for everything. Claude and ChatGPT sit in the loop for scaffolding, debugging, and reading code I did not write, which saves more time than it sounds like.
 
