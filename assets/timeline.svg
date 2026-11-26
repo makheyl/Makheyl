@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="470" viewBox="0 0 1200 470" role="img" aria-label="Timeline 2023 to 2027: BSIT at UPHSL, design and operations roles, City Health Office developer, PSC XI regional top 15, CloudSwyft internship">
+<!--
+MAKHEYL / experience timeline. Hand-maintained.
+Source: makheyl-portfolio.vercel.app/experience.html
+Plot runs Jul 2023 to Jul 2027; "now" line sits at mid-November 2026.
+Move the now line and extend ongoing bars when you update it.
+PSC XI has no month on the portfolio, so it spans all of 2026.
+  BSIT, Game Development | UPHSL · Sep 2023 – 2027
+  Designer & Laser Engraving | Lumbre Gunsmith Shop · Oct 2023 – now
+  Digital Operations Manager | CCIS Shooting Range · Nov 2023 – Jan 2026
+  Software Developer | City Health Office, Carmona · Jul 2025 – now
+  Team Lead & Founder, KolektaPH | PSC XI · DICT · 2026, regional top 15
+  Developer Intern | CloudSwyft · Jul – Nov 2026
+-->
+  <title>Timeline 2023 to 2027: BSIT at UPHSL, design and operations roles, City Health Office developer, PSC XI regional top 15, CloudSwyft internship</title>
+  <rect x="0.5" y="0.5" width="1199" height="469" rx="12" fill="#000000" stroke="#262626"/>
+  <line x1="538.8" y1="86" x2="538.8" y2="428" stroke="#161616"/>
+  <text x="538.8" y="76" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="16" fill="#8B8B8B">2024</text>
+  <line x1="716.2" y1="86" x2="716.2" y2="428" stroke="#161616"/>
+  <text x="716.2" y="76" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="16" fill="#8B8B8B">2025</text>
+  <line x1="893.8" y1="86" x2="893.8" y2="428" stroke="#161616"/>
+  <text x="893.8" y="76" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="16" fill="#8B8B8B">2026</text>
+  <line x1="1071.2" y1="86" x2="1071.2" y2="428" stroke="#161616"/>
+  <text x="1071.2" y="76" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="16" fill="#8B8B8B">2027</text>
+  <line x1="1049.1" y1="86" x2="1049.1" y2="428" stroke="#FFFFFF" stroke-dasharray="2 4"/>
+  <text x="1055.1" y="446" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" fill="#FFFFFF">now</text>
+  <text x="36" y="112" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="19" font-weight="600" fill="#FFFFFF">BSIT, Game Development</text>
+  <text x="36" y="134" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="15" fill="#8B8B8B">UPHSL · Sep 2023 – 2027</text>
+  <rect x="479.6" y="116" width="569.5" height="12" rx="6" fill="#FFFFFF"/>
+  <line x1="1053.1" y1="122" x2="1145.2" y2="122" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="4 5"/>
+  <text x="36" y="168" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="19" font-weight="600" fill="#FFFFFF">Designer &amp; Laser Engraving</text>
+  <text x="36" y="190" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="15" fill="#8B8B8B">Lumbre Gunsmith Shop · Oct 2023 – now</text>
+  <rect x="494.4" y="172" width="554.7" height="12" rx="6" fill="#FFFFFF"/>
+  <text x="36" y="224" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="19" font-weight="600" fill="#FFFFFF">Digital Operations Manager</text>
+  <text x="36" y="246" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="15" fill="#8B8B8B">CCIS Shooting Range · Nov 2023 – Jan 2026</text>
+  <rect x="509.2" y="228" width="399.4" height="12" rx="6" fill="#5A5A5A"/>
+  <text x="36" y="280" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="19" font-weight="600" fill="#FFFFFF">Software Developer</text>
+  <text x="36" y="302" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="15" fill="#8B8B8B">City Health Office, Carmona · Jul 2025 – now</text>
+  <rect x="805.0" y="284" width="244.1" height="12" rx="6" fill="#FFFFFF"/>
+  <text x="36" y="336" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="19" font-weight="600" fill="#FFFFFF">Team Lead &amp; Founder, KolektaPH</text>
+  <text x="36" y="358" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="15" fill="#8B8B8B">PSC XI · DICT · 2026, regional top 15</text>
+  <rect x="893.8" y="340" width="177.5" height="12" rx="6" fill="none" stroke="#FFFFFF" stroke-dasharray="3 3"/>
+  <path d="M982.5 338 l8 8 l-8 8 l-8 -8 z" fill="#FFFFFF"/>
+  <text x="36" y="392" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="19" font-weight="600" fill="#FFFFFF">Developer Intern</text>
+  <text x="36" y="414" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="15" fill="#8B8B8B">CloudSwyft · Jul – Nov 2026</text>
+  <rect x="982.5" y="396" width="74.0" height="12" rx="6" fill="#5A5A5A"/>
+  <text x="36" y="42" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="16" fill="#8B8B8B">2023 → 2027 · school and work, side by side</text>
+  <rect x="770" y="33" width="22" height="8" rx="4" fill="#FFFFFF"/><text x="800" y="42" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" fill="#8B8B8B">ongoing</text>
+  <rect x="890" y="33" width="22" height="8" rx="4" fill="#5A5A5A"/><text x="920" y="42" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" fill="#8B8B8B">ended</text>
+  <rect x="994" y="33" width="22" height="8" rx="4" fill="none" stroke="#FFFFFF" stroke-dasharray="3 3"/><text x="1024" y="42" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" fill="#8B8B8B">event</text>
+</svg>

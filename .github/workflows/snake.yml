@@ -1,0 +1,52 @@
+# Builds the monochrome contribution snake shown under ~/activity in README.md.
+# Output goes to the "output" branch as snake.svg.
+name: snake
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # daily, 08:00 Philippine time
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: snake
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Generate the snake
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake.svg?color_snake=#ffffff&color_dots=#161616,#3a3a3a,#6e6e6e,#a6a6a6,#ffffff
+
+      # The svg output has a transparent background; put it on a black card
+      # so it matches the other cards in light and dark mode.
+      - name: Add a black card behind the grid
+        run: |
+          python3 - <<'PY'
+          import re
+          path = "dist/snake.svg"
+          svg = open(path).read()
+          x, y, w, h = re.search(r'viewBox="([^"]+)"', svg).group(1).split()
+          card = f'<rect x="{x}" y="{y}" width="{w}" height="{h}" rx="12" fill="#000000" stroke="#262626"/>'
+          svg = re.sub(r"(<svg[^>]*>)", lambda m: m.group(1) + card, svg, count=1)
+          open(path, "w").write(svg)
+          PY
+
+      - name: Publish to the output branch
+        uses: crazy-max/ghaction-github-pages@v5
+        with:
+          target_branch: output
+          build_dir: dist
+          commit_message: "Update contribution snake"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
